@@ -2,18 +2,29 @@
 <html>
 <head>
   <style>
-    body {
-      background-image: url('index1page1.png');
+    .bg-image-1 {
+      background-image: url('first-image.png');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-      background-attachment: fixed;
-      margin: 0;
-      height: 100vh;
+      height: 100vh; /* Full viewport height */
+    }
+    
+    .bg-image-2 {
+      background-image: url('second-image.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh; /* Full viewport height */
     }
   </style>
 </head>
 <body>
-  <h1>Your content here</h1>
+  <div class="indexpage1">
+    Content for first section
+  </div>
+  <div class="indexpage2">
+    Content for second section
+  </div>
 </body>
 </html>
