@@ -2,19 +2,25 @@
 <html>
 <head>
   <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+    
     .bg-image-1 {
       background-image: url('korpage1.png');
-      background-size: cover;
-      background-position: center;
+      background-size: contain; /* Shows entire image */
+      background-position: center top;
       background-repeat: no-repeat;
-      height: 150vh; /* Full viewport height */
+      min-height: 100vh;
+      /* Let the natural image proportions determine height */
     }
     
   </style>
 </head>
 <body>
   <div class="bg-image-1">
+    <h1 style="padding: 20px;">First Section - Full Image Visible</h1>
   </div>
-  <div class="bg-image-2">
 </body>
 </html>
